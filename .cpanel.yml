@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/hobisede/public_html/
+    - /bin/cp -R img $DEPLOYPATH
+    - /bin/cp -F index.html $DEPLOYPATH
+    - /bin/cp -F script.js $DEPLOYPATH
+    - /bin/cp -F style.css $DEPLOYPATH
